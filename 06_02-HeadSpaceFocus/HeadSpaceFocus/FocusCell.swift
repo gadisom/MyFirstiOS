@@ -23,7 +23,5 @@ class FocusCell: UICollectionViewCell {
         titleLabel.text = item.title
         descriptionLabel.text = item.description
         thumbnailImageView.image = UIImage(systemName:item.imageName)?.withRenderingMode(.alwaysOriginal)
-        // 항상 원래 색으로 하겠다.
-    
     }
 }

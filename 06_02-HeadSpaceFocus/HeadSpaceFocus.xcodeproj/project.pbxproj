@@ -16,6 +16,11 @@
 		943BB56428150EFB005A1B6E /* HeadSpaceFocusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943BB56328150EFB005A1B6E /* HeadSpaceFocusUITests.swift */; };
 		943BB56628150EFB005A1B6E /* HeadSpaceFocusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943BB56528150EFB005A1B6E /* HeadSpaceFocusUITestsLaunchTests.swift */; };
 		943BB57728151183005A1B6E /* Focus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943BB57628151183005A1B6E /* Focus.swift */; };
+		FF1D13882A5177CE005E3749 /* QuickFocus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1D13872A5177CE005E3749 /* QuickFocus.storyboard */; };
+		FF1D138A2A5177E6005E3749 /* QuickFocusListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1D13892A5177E6005E3749 /* QuickFocusListViewController.swift */; };
+		FF1D138C2A517A42005E3749 /* QuickFocusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1D138B2A517A42005E3749 /* QuickFocusCell.swift */; };
+		FF1D138E2A517B3C005E3749 /* QuickFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1D138D2A517B3C005E3749 /* QuickFocus.swift */; };
+		FF1D13902A518EA3005E3749 /* QuickFocusHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1D138F2A518EA3005E3749 /* QuickFocusHeaderView.swift */; };
 		FF2B12902A179CF3003EFDBB /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2B128F2A179CF3003EFDBB /* FocusViewController.swift */; };
 		FF2B12922A17A1F8003EFDBB /* FocusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2B12912A17A1F7003EFDBB /* FocusCell.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +56,11 @@
 		943BB56328150EFB005A1B6E /* HeadSpaceFocusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadSpaceFocusUITests.swift; sourceTree = "<group>"; };
 		943BB56528150EFB005A1B6E /* HeadSpaceFocusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadSpaceFocusUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		943BB57628151183005A1B6E /* Focus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus.swift; sourceTree = "<group>"; };
+		FF1D13872A5177CE005E3749 /* QuickFocus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuickFocus.storyboard; sourceTree = "<group>"; };
+		FF1D13892A5177E6005E3749 /* QuickFocusListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickFocusListViewController.swift; sourceTree = "<group>"; };
+		FF1D138B2A517A42005E3749 /* QuickFocusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickFocusCell.swift; sourceTree = "<group>"; };
+		FF1D138D2A517B3C005E3749 /* QuickFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickFocus.swift; sourceTree = "<group>"; };
+		FF1D138F2A518EA3005E3749 /* QuickFocusHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickFocusHeaderView.swift; sourceTree = "<group>"; };
 		FF2B128F2A179CF3003EFDBB /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
 		FF2B12912A17A1F7003EFDBB /* FocusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +118,11 @@
 				943BB57628151183005A1B6E /* Focus.swift */,
 				943BB54828150EFA005A1B6E /* Main.storyboard */,
 				FF2B12912A17A1F7003EFDBB /* FocusCell.swift */,
+				FF1D13872A5177CE005E3749 /* QuickFocus.storyboard */,
+				FF1D138B2A517A42005E3749 /* QuickFocusCell.swift */,
+				FF1D138F2A518EA3005E3749 /* QuickFocusHeaderView.swift */,
+				FF1D138D2A517B3C005E3749 /* QuickFocus.swift */,
+				FF1D13892A5177E6005E3749 /* QuickFocusListViewController.swift */,
 				FF2B128F2A179CF3003EFDBB /* FocusViewController.swift */,
 				943BB54B28150EFB005A1B6E /* Assets.xcassets */,
 				943BB54D28150EFB005A1B6E /* LaunchScreen.storyboard */,
@@ -238,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				943BB54F28150EFB005A1B6E /* LaunchScreen.storyboard in Resources */,
+				FF1D13882A5177CE005E3749 /* QuickFocus.storyboard in Resources */,
 				943BB54C28150EFB005A1B6E /* Assets.xcassets in Resources */,
 				943BB54A28150EFA005A1B6E /* Main.storyboard in Resources */,
 			);
@@ -264,9 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1D138E2A517B3C005E3749 /* QuickFocus.swift in Sources */,
 				943BB57728151183005A1B6E /* Focus.swift in Sources */,
 				943BB54328150EFA005A1B6E /* AppDelegate.swift in Sources */,
 				FF2B12922A17A1F8003EFDBB /* FocusCell.swift in Sources */,
+				FF1D138A2A5177E6005E3749 /* QuickFocusListViewController.swift in Sources */,
+				FF1D13902A518EA3005E3749 /* QuickFocusHeaderView.swift in Sources */,
+				FF1D138C2A517A42005E3749 /* QuickFocusCell.swift in Sources */,
 				943BB54528150EFA005A1B6E /* SceneDelegate.swift in Sources */,
 				FF2B12902A179CF3003EFDBB /* FocusViewController.swift in Sources */,
 			);
